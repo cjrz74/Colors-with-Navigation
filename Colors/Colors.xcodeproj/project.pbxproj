@@ -13,7 +13,7 @@
 		3F3AFA7F1F19C73A00383C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3AFA7D1F19C73A00383C87 /* LaunchScreen.storyboard */; };
 		3F3AFA8A1F19C73A00383C87 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFA891F19C73A00383C87 /* ColorsTests.swift */; };
 		3F3AFA951F19C73A00383C87 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFA941F19C73A00383C87 /* ColorsUITests.swift */; };
-		3F3AFAA31F19C84000383C87 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFAA21F19C84000383C87 /* ColorsViewController.swift */; };
+		3F3AFAA61F19D1F100383C87 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFAA21F19C84000383C87 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3AFAA31F19C84000383C87 /* ColorsViewController.swift in Sources */,
+				3F3AFAA61F19D1F100383C87 /* ColorsViewController.swift in Sources */,
 				3F3AFA751F19C73A00383C87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +507,7 @@
 				3F3AFA9B1F19C73A00383C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3AFA9C1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				3F3AFA9E1F19C73A00383C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3AFA9F1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				3F3AFAA11F19C73A00383C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
