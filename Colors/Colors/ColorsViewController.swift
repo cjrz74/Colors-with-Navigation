@@ -40,7 +40,8 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cell.textLabel?.text = colors[indexPath.row]
         
-        cell.backgroundColor = UIColor.blue
+        let colorss = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.blue, UIColor.purple, UIColor.brown]
+        cell.backgroundColor = colorss[indexPath.row % self.colors.count]
         
         return cell
     }
