@@ -9,10 +9,55 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="OuX-Ya-cTY">
+            <objects>
+                <tableViewController id="pFy-yC-2Bb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ypt-Bf-YHk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LmR-AT-Av7">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LmR-AT-Av7" id="DLh-5u-DZp">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pFy-yC-2Bb" id="9Pd-7Z-bCL"/>
+                            <outlet property="delegate" destination="pFy-yC-2Bb" id="MxL-JZ-ToL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Dhd-JB-cGW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxs-dy-t2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607" y="137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hUu-D6-Rod">
+            <objects>
+                <navigationController id="y0u-Oh-cVe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="btB-6i-2UX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pFy-yC-2Bb" kind="relationship" relationship="rootViewController" id="LsJ-HK-JCr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Rd-a6-783" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1378" y="148"/>
+        </scene>
         <!--Colors View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ColorsViewController" customModule="Colors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ColorsViewController" customModule="Colors_with_Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -70,7 +115,7 @@
         <!--Colors Detail View Controller-->
         <scene sceneID="MjN-rD-98l">
             <objects>
-                <viewController id="hJx-z0-xxt" customClass="ColorsDetailViewController" customModule="Colors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hJx-z0-xxt" customClass="ColorsDetailViewController" customModule="Colors_with_Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="341-M6-dC0"/>
                         <viewControllerLayoutGuide type="bottom" id="1G3-QK-B0b"/>
