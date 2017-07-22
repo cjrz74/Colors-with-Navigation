@@ -9,7 +9,7 @@
 import UIKit
 
 class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    var colorToPass:String!
     @IBOutlet weak var colorsTableView: UITableView!
 
     var colors = ["red", "orange", "yellow", "green", "blue", "purple", "brown"]
@@ -39,11 +39,21 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath)
         
         cell.textLabel?.text = colors[indexPath.row]
-        
+
         let colorss = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.blue, UIColor.purple, UIColor.brown]
         cell.backgroundColor = colorss[indexPath.row % self.colors.count]
-        
+        colorToPass = colors[indexPath.row]
+        //performSegue(withIdentifier: "segueColor", sender: self)
         return cell
+    }
+    
+    func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        
+        if (segue.identifier == "segueColor"){
+            let ColorsDetailedViewController = segue.destination as! ColorsDetailViewController
+            ColorsDetailedViewController.passedColor = colorToPass
+        }
+        
     }
     /*
      // MARK: - Navigation

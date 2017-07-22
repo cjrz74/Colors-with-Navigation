@@ -14,6 +14,7 @@
 		3F3AFA8A1F19C73A00383C87 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFA891F19C73A00383C87 /* ColorsTests.swift */; };
 		3F3AFA951F19C73A00383C87 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFA941F19C73A00383C87 /* ColorsUITests.swift */; };
 		3F3AFAB41F19D4BD00383C87 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AFAB31F19D4BD00383C87 /* ColorsViewController.swift */; };
+		3FE183A61F22EF05003CF91D /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE183A51F22EF05003CF91D /* ColorsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F3AFA711F19C73A00383C87 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3AFA711F19C73A00383C87 /* Colors with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3AFA741F19C73A00383C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3AFA791F19C73A00383C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3AFA7B1F19C73A00383C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3AFA7E1F19C73A00383C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3AFA801F19C73A00383C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3AFA851F19C73A00383C87 /* ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3AFA851F19C73A00383C87 /* Colors with NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3AFA891F19C73A00383C87 /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		3F3AFA8B1F19C73A00383C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3AFA901F19C73A00383C87 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3AFA901F19C73A00383C87 /* Colors with NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3AFA941F19C73A00383C87 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		3F3AFA961F19C73A00383C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3AFAB31F19D4BD00383C87 /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		3FE183A51F22EF05003CF91D /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		3F3AFA721F19C73A00383C87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F3AFA711F19C73A00383C87 /* Colors.app */,
-				3F3AFA851F19C73A00383C87 /* ColorsTests.xctest */,
-				3F3AFA901F19C73A00383C87 /* ColorsUITests.xctest */,
+				3F3AFA711F19C73A00383C87 /* Colors with Navigation.app */,
+				3F3AFA851F19C73A00383C87 /* Colors with NavigationTests.xctest */,
+				3F3AFA901F19C73A00383C87 /* Colors with NavigationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				3F3AFA7D1F19C73A00383C87 /* LaunchScreen.storyboard */,
 				3F3AFA801F19C73A00383C87 /* Info.plist */,
 				3F3AFAB31F19D4BD00383C87 /* ColorsViewController.swift */,
+				3FE183A51F22EF05003CF91D /* ColorsDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F3AFA701F19C73900383C87 /* Colors */ = {
+		3F3AFA701F19C73900383C87 /* Colors with Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3AFA991F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 3F3AFA991F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */;
 			buildPhases = (
 				3F3AFA6D1F19C73900383C87 /* Sources */,
 				3F3AFA6E1F19C73900383C87 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Colors;
+			name = "Colors with Navigation";
 			productName = Colors;
-			productReference = 3F3AFA711F19C73A00383C87 /* Colors.app */;
+			productReference = 3F3AFA711F19C73A00383C87 /* Colors with Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F3AFA841F19C73A00383C87 /* ColorsTests */ = {
+		3F3AFA841F19C73A00383C87 /* Colors with NavigationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3AFA9C1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsTests" */;
+			buildConfigurationList = 3F3AFA9C1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with NavigationTests" */;
 			buildPhases = (
 				3F3AFA811F19C73A00383C87 /* Sources */,
 				3F3AFA821F19C73A00383C87 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				3F3AFA871F19C73A00383C87 /* PBXTargetDependency */,
 			);
-			name = ColorsTests;
+			name = "Colors with NavigationTests";
 			productName = ColorsTests;
-			productReference = 3F3AFA851F19C73A00383C87 /* ColorsTests.xctest */;
+			productReference = 3F3AFA851F19C73A00383C87 /* Colors with NavigationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F3AFA8F1F19C73A00383C87 /* ColorsUITests */ = {
+		3F3AFA8F1F19C73A00383C87 /* Colors with NavigationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3AFA9F1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsUITests" */;
+			buildConfigurationList = 3F3AFA9F1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */;
 			buildPhases = (
 				3F3AFA8C1F19C73A00383C87 /* Sources */,
 				3F3AFA8D1F19C73A00383C87 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				3F3AFA921F19C73A00383C87 /* PBXTargetDependency */,
 			);
-			name = ColorsUITests;
+			name = "Colors with NavigationUITests";
 			productName = ColorsUITests;
-			productReference = 3F3AFA901F19C73A00383C87 /* ColorsUITests.xctest */;
+			productReference = 3F3AFA901F19C73A00383C87 /* Colors with NavigationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F3AFA6C1F19C73900383C87 /* Build configuration list for PBXProject "Colors" */;
+			buildConfigurationList = 3F3AFA6C1F19C73900383C87 /* Build configuration list for PBXProject "Colors with Navigation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F3AFA701F19C73900383C87 /* Colors */,
-				3F3AFA841F19C73A00383C87 /* ColorsTests */,
-				3F3AFA8F1F19C73A00383C87 /* ColorsUITests */,
+				3F3AFA701F19C73900383C87 /* Colors with Navigation */,
+				3F3AFA841F19C73A00383C87 /* Colors with NavigationTests */,
+				3F3AFA8F1F19C73A00383C87 /* Colors with NavigationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3AFAB41F19D4BD00383C87 /* ColorsViewController.swift in Sources */,
+				3FE183A61F22EF05003CF91D /* ColorsDetailViewController.swift in Sources */,
 				3F3AFA751F19C73A00383C87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		3F3AFA871F19C73A00383C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F3AFA701F19C73900383C87 /* Colors */;
+			target = 3F3AFA701F19C73900383C87 /* Colors with Navigation */;
 			targetProxy = 3F3AFA861F19C73A00383C87 /* PBXContainerItemProxy */;
 		};
 		3F3AFA921F19C73A00383C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F3AFA701F19C73900383C87 /* Colors */;
+			target = 3F3AFA701F19C73900383C87 /* Colors with Navigation */;
 			targetProxy = 3F3AFA911F19C73A00383C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = online.cjrz74.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors with Navigation.app/Colors with Navigation";
 			};
 			name = Debug;
 		};
@@ -458,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = online.cjrz74.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors with Navigation.app/Colors with Navigation";
 			};
 			name = Release;
 		};
@@ -491,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F3AFA6C1F19C73900383C87 /* Build configuration list for PBXProject "Colors" */ = {
+		3F3AFA6C1F19C73900383C87 /* Build configuration list for PBXProject "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3AFA971F19C73A00383C87 /* Debug */,
@@ -500,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F3AFA991F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		3F3AFA991F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3AFA9A1F19C73A00383C87 /* Debug */,
@@ -509,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F3AFA9C1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
+		3F3AFA9C1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with NavigationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3AFA9D1F19C73A00383C87 /* Debug */,
@@ -518,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F3AFA9F1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
+		3F3AFA9F1F19C73A00383C87 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3AFAA01F19C73A00383C87 /* Debug */,
